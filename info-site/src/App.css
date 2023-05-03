@@ -1,4 +1,62 @@
 .container {
-  width: 800px;
+  width: 550px;
   margin: 20px auto;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #21222A;
+  padding: 5px 10px;
+  height: 91px;
+}
+
+h3 {
+  margin-right: auto;
+  color: #61DAFB;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+h4 {
+  padding-right: 20px;
+  color: #DEEBF8;
+  font-size: 16px;
+}
+
+/* Main */
+.main {
+  height: 500px;
+  background-color: #282D35;
+  background-image: url("./logo.svg");
+  background-position: 274px;
+  background-repeat: no-repeat;
+}
+
+.main
+
+h1 {
+  font-size: 39px;
+  margin: 0 30px;
+  padding-top: 40px;
+  color: white;
+}
+
+.main-list {
+  margin-top: 35px;
+  color: white;
+  font-size: 16px;
+  padding-left: 70px;
+  max-width: 400px;
+}
+
+.main-list > li {
+  margin: 15px 0px;
+  align-content: center;
+}
+
+.main-list > li::marker {
+  color: #61DAFB;
+  font-size: 1.5rem;
 }
