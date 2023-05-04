@@ -1,20 +1,18 @@
-import image from '../images/katie-zaferes.png'
-import star from '../images/star.png'
 import '../stylesheets/card.css';
 
-export default function Card() {
+export default function Card(experience) {
   return (
     <div className="card">
-      <img src={image} alt="Katie Zaferes" className="card--photo"/>
+      <img src={`../images/${experience.img}`} alt="Experience" className="card--photo"/>
       <div className="card--rating">
-        <img src={star} alt="Star" className='card--star'/>
-        <span>5.0</span>
-        <span className="text-gray">(6)</span>
-        <span className="text-gray">• USA</span>
+        <img src="../images/star.png" alt="Star" className='card--star'/>
+        <span>{experience.rating}</span>
+        <span className="text-gray">({experience.reviewCount})</span>
+        <span className="text-gray">• {experience.location}</span>
       </div>
       <div className="card--text">
-        <p>Life lessons with Katie Zaferes</p>
-        <span><strong>From $136</strong> / person</span>
+        <p>{experience.title}</p>
+        <span><strong>From ${experience.price}</strong> / person</span>
       </div>
     </div>
   )
