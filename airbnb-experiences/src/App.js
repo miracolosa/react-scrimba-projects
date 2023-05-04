@@ -6,16 +6,16 @@ import data from './data'
 
 function App() {
   const experiences = data.map( experience => {
-    return <Card img={experience.coverImg} rating={experience.stats.rating}
-          reviewCount={experience.stats.reviewCount} location={experience.location}
-          title={experience.title} price={experience.price}/>
+    return <Card key={experience.id} {...experience}/>
   })
 
   return (
     <div className="container">
       <Navbar />
       <Hero />
-      {experiences}
+      <section className="cards-list">
+        {experiences}
+      </section>
     </div>
   );
 }
