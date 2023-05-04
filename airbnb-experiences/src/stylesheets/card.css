@@ -1,0 +1,32 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 175px;
+  padding: 20px;
+}
+
+.card--photo {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 9px;
+}
+
+.card--text,
+.card--rating {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.card--text > p {
+  margin: 0.4em 0;
+}
+
+.card--rating {
+  display: flex;
+  align-items: center;
+  margin-top: 0.4em;
+}
+
+.card--star {
+  width: 14px;
+}

@@ -1,4 +1,5 @@
 import airbnbLogo from '../images/airbnb-logo.png'
+import '../stylesheets/navbar.css';
 
 export default function Navbar() {
   return (

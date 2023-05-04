@@ -1,0 +1,26 @@
+/* Hero */
+section {
+  padding: 20px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero > img {
+  max-width: 395px;
+  align-self: center;
+}
+
+.hero--header {
+  margin-top: 32px;
+  margin-bottom: 16px;
+  font-size: 36px;
+}
+
+.hero--text {
+  max-width: 320px;
+  font-weight: 300;
+  margin: 0;
+}

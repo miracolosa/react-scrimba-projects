@@ -1,4 +1,5 @@
 import grid from '../images/photo-grid.png'
+import '../stylesheets/hero.css';
 
 export default function Hero() {
   return(
