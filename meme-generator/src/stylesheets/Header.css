@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  height: 65px;
+  padding: 10px 19px;
+  align-items: center;
+  background: linear-gradient(90deg, rgba(103,34,128,1) 0%, rgba(166,38,211,1) 100%);
+  color: white;
+}
+
+.header--title {
+  margin-right: auto;
+  margin-left: 0.5em;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.header--subtitle {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
