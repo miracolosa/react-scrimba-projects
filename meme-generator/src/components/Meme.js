@@ -13,8 +13,6 @@ export default function Meme() {
 
   const [allMemeImages, setAllMemeImages] = useState(memesData)
 
-
-
   function getMemeImage() {
     const memes = allMemeImages.data.memes
     const index = Math.floor(Math.random() * memes.length)
