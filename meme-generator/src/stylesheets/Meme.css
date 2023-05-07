@@ -31,15 +31,44 @@
   font-family: 'Karla', sans-serif;
 }
 
-.meme {
+.meme--image {
   max-width: 100%;
-  height: 470px;
+  /* height: 470px; */
   object-fit: cover;
   border-radius: 2px;
 }
 
-.image--center {
+.meme {
   margin-top: 20px;
+  position: relative;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.meme--text {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 2em;
+  color: white;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.top {
+  top: 10px;
+}
+
+.bottom {
+  bottom: 10px;
 }
