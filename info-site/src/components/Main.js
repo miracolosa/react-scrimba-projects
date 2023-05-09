@@ -1,9 +1,9 @@
-import logo from '../logo.svg';
+import '../stylesheets/Main.css'
 
-export default function Main() {
+export default function Main({darkMode}) {
   return (
-    <div className="main">
-      <h1>Fun facts about React</h1>
+    <div className={`main ${darkMode ? "dark" : ""}`}>
+      <h1 className='main--title'>Fun facts about React</h1>
       <ul className="main-list">
         <li>Was first released in 2013</li>
         <li>Was originally created by Jordan Walke</li>
