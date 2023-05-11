@@ -1,0 +1,21 @@
+.dice {
+  height: 50px;
+  width: 50px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  cursor: pointer;
+  background-color: white;
+}
+
+.dice.held {
+  background-color: #59E391;
+}
+
+.dice--value {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
