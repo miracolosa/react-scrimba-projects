@@ -2,7 +2,7 @@ main {
   background-color: #F5F5F5;
   height: 400px;
   max-width: 800px;
-  margin: 0 auto;
+  margin: 90px auto;
   border-radius: 10px;
   padding: 30px 20px;
   display: flex;
@@ -16,9 +16,10 @@ main {
 }
 
 .main--text {
-  font-size: 0.8rem;
-  max-width: 230px;
+  font-size: 1.2rem;
+  max-width: 500px;
   text-align: center;
+  margin: 0;
 }
 
 .main--die {
@@ -29,8 +30,6 @@ main {
 }
 
 .main--btn {
-  /* margin-top: 20px; */
-  max-width: 92px;
   padding: 10px 30px;
   border-radius: 5px;
   font-size: 1.2rem;
